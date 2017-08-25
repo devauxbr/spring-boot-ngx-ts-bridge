@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "include": [
+      "target/ts-generated-sources/spring-boot-ngx-ts-bridge-server/src"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<assembly>
+    <id>ts-generated-sources</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+
+    <fileSets>
+        <fileSet>
+            <directory>target/typescript-generator</directory>
+            <outputDirectory>src</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
